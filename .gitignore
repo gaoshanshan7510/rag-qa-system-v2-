@@ -1,0 +1,17 @@
+# 忽略虚拟环境
+venv/
+.venv/
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+
+# 忽略本地向量数据库（如果有的话，替换成你实际的文件夹名字，比如 chroma_db）
+chroma_db/
+vector_store/
+
+# 忽略环境变量文件（保护你的 API Key 不泄露！）
+.env
+
+# 忽略系统文件
+.DS_Store
